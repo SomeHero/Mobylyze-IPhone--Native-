@@ -73,13 +73,13 @@
 		5BFACE79164724A90046E89D /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE6C164724A90046E89D /* ASIHTTPRequest.m */; };
 		5BFACE7A164724A90046E89D /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE70164724A90046E89D /* ASIInputStream.m */; };
 		5BFACE7B164724A90046E89D /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE72164724A90046E89D /* ASINetworkQueue.m */; };
-		5BFACEA5164727010046E89D /* DIOSComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE97164727010046E89D /* DIOSComment.m */; };
-		5BFACEA6164727010046E89D /* DIOSConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE9A164727010046E89D /* DIOSConnect.m */; };
-		5BFACEA7164727010046E89D /* DIOSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE9C164727010046E89D /* DIOSFile.m */; };
-		5BFACEA8164727010046E89D /* DIOSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACE9E164727010046E89D /* DIOSNode.m */; };
-		5BFACEA9164727010046E89D /* DIOSTaxonomy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEA0164727010046E89D /* DIOSTaxonomy.m */; };
-		5BFACEAA164727010046E89D /* DIOSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEA2164727010046E89D /* DIOSUser.m */; };
-		5BFACEAB164727010046E89D /* DIOSViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEA4164727010046E89D /* DIOSViews.m */; };
+		5BFACEBB164727C00046E89D /* DIOSComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEAD164727C00046E89D /* DIOSComment.m */; };
+		5BFACEBC164727C00046E89D /* DIOSConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB0164727C00046E89D /* DIOSConnect.m */; };
+		5BFACEBD164727C00046E89D /* DIOSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB2164727C00046E89D /* DIOSFile.m */; };
+		5BFACEBE164727C00046E89D /* DIOSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB4164727C00046E89D /* DIOSNode.m */; };
+		5BFACEBF164727C00046E89D /* DIOSTaxonomy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB6164727C00046E89D /* DIOSTaxonomy.m */; };
+		5BFACEC0164727C00046E89D /* DIOSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB8164727C00046E89D /* DIOSUser.m */; };
+		5BFACEC1164727C00046E89D /* DIOSViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEBA164727C00046E89D /* DIOSViews.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,21 +195,21 @@
 		5BFACE71164724A90046E89D /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
 		5BFACE72164724A90046E89D /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
 		5BFACE73164724A90046E89D /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
-		5BFACE96164727010046E89D /* DIOSComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSComment.h; sourceTree = "<group>"; };
-		5BFACE97164727010046E89D /* DIOSComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSComment.m; sourceTree = "<group>"; };
-		5BFACE98164727010046E89D /* DIOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSConfig.h; sourceTree = "<group>"; };
-		5BFACE99164727010046E89D /* DIOSConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSConnect.h; sourceTree = "<group>"; };
-		5BFACE9A164727010046E89D /* DIOSConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSConnect.m; sourceTree = "<group>"; };
-		5BFACE9B164727010046E89D /* DIOSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSFile.h; sourceTree = "<group>"; };
-		5BFACE9C164727010046E89D /* DIOSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSFile.m; sourceTree = "<group>"; };
-		5BFACE9D164727010046E89D /* DIOSNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSNode.h; sourceTree = "<group>"; };
-		5BFACE9E164727010046E89D /* DIOSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSNode.m; sourceTree = "<group>"; };
-		5BFACE9F164727010046E89D /* DIOSTaxonomy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSTaxonomy.h; sourceTree = "<group>"; };
-		5BFACEA0164727010046E89D /* DIOSTaxonomy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSTaxonomy.m; sourceTree = "<group>"; };
-		5BFACEA1164727010046E89D /* DIOSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSUser.h; sourceTree = "<group>"; };
-		5BFACEA2164727010046E89D /* DIOSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSUser.m; sourceTree = "<group>"; };
-		5BFACEA3164727010046E89D /* DIOSViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSViews.h; sourceTree = "<group>"; };
-		5BFACEA4164727010046E89D /* DIOSViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSViews.m; sourceTree = "<group>"; };
+		5BFACEAC164727C00046E89D /* DIOSComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSComment.h; path = "drupal-ios-sdk/DIOSComment.h"; sourceTree = "<group>"; };
+		5BFACEAD164727C00046E89D /* DIOSComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSComment.m; path = "drupal-ios-sdk/DIOSComment.m"; sourceTree = "<group>"; };
+		5BFACEAE164727C00046E89D /* DIOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSConfig.h; path = "drupal-ios-sdk/DIOSConfig.h"; sourceTree = "<group>"; };
+		5BFACEAF164727C00046E89D /* DIOSConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSConnect.h; path = "drupal-ios-sdk/DIOSConnect.h"; sourceTree = "<group>"; };
+		5BFACEB0164727C00046E89D /* DIOSConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSConnect.m; path = "drupal-ios-sdk/DIOSConnect.m"; sourceTree = "<group>"; };
+		5BFACEB1164727C00046E89D /* DIOSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSFile.h; path = "drupal-ios-sdk/DIOSFile.h"; sourceTree = "<group>"; };
+		5BFACEB2164727C00046E89D /* DIOSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSFile.m; path = "drupal-ios-sdk/DIOSFile.m"; sourceTree = "<group>"; };
+		5BFACEB3164727C00046E89D /* DIOSNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSNode.h; path = "drupal-ios-sdk/DIOSNode.h"; sourceTree = "<group>"; };
+		5BFACEB4164727C00046E89D /* DIOSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSNode.m; path = "drupal-ios-sdk/DIOSNode.m"; sourceTree = "<group>"; };
+		5BFACEB5164727C00046E89D /* DIOSTaxonomy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSTaxonomy.h; path = "drupal-ios-sdk/DIOSTaxonomy.h"; sourceTree = "<group>"; };
+		5BFACEB6164727C00046E89D /* DIOSTaxonomy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSTaxonomy.m; path = "drupal-ios-sdk/DIOSTaxonomy.m"; sourceTree = "<group>"; };
+		5BFACEB7164727C00046E89D /* DIOSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSUser.h; path = "drupal-ios-sdk/DIOSUser.h"; sourceTree = "<group>"; };
+		5BFACEB8164727C00046E89D /* DIOSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSUser.m; path = "drupal-ios-sdk/DIOSUser.m"; sourceTree = "<group>"; };
+		5BFACEB9164727C00046E89D /* DIOSViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSViews.h; path = "drupal-ios-sdk/DIOSViews.h"; sourceTree = "<group>"; };
+		5BFACEBA164727C00046E89D /* DIOSViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSViews.m; path = "drupal-ios-sdk/DIOSViews.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Mobilyze-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mobilyze-Info.plist"; path = "../Mobilyze-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -496,21 +496,21 @@
 		5BFACE7C164725790046E89D /* drupal-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				5BFACE96164727010046E89D /* DIOSComment.h */,
-				5BFACE97164727010046E89D /* DIOSComment.m */,
-				5BFACE98164727010046E89D /* DIOSConfig.h */,
-				5BFACE99164727010046E89D /* DIOSConnect.h */,
-				5BFACE9A164727010046E89D /* DIOSConnect.m */,
-				5BFACE9B164727010046E89D /* DIOSFile.h */,
-				5BFACE9C164727010046E89D /* DIOSFile.m */,
-				5BFACE9D164727010046E89D /* DIOSNode.h */,
-				5BFACE9E164727010046E89D /* DIOSNode.m */,
-				5BFACE9F164727010046E89D /* DIOSTaxonomy.h */,
-				5BFACEA0164727010046E89D /* DIOSTaxonomy.m */,
-				5BFACEA1164727010046E89D /* DIOSUser.h */,
-				5BFACEA2164727010046E89D /* DIOSUser.m */,
-				5BFACEA3164727010046E89D /* DIOSViews.h */,
-				5BFACEA4164727010046E89D /* DIOSViews.m */,
+				5BFACEAC164727C00046E89D /* DIOSComment.h */,
+				5BFACEAD164727C00046E89D /* DIOSComment.m */,
+				5BFACEAE164727C00046E89D /* DIOSConfig.h */,
+				5BFACEAF164727C00046E89D /* DIOSConnect.h */,
+				5BFACEB0164727C00046E89D /* DIOSConnect.m */,
+				5BFACEB1164727C00046E89D /* DIOSFile.h */,
+				5BFACEB2164727C00046E89D /* DIOSFile.m */,
+				5BFACEB3164727C00046E89D /* DIOSNode.h */,
+				5BFACEB4164727C00046E89D /* DIOSNode.m */,
+				5BFACEB5164727C00046E89D /* DIOSTaxonomy.h */,
+				5BFACEB6164727C00046E89D /* DIOSTaxonomy.m */,
+				5BFACEB7164727C00046E89D /* DIOSUser.h */,
+				5BFACEB8164727C00046E89D /* DIOSUser.m */,
+				5BFACEB9164727C00046E89D /* DIOSViews.h */,
+				5BFACEBA164727C00046E89D /* DIOSViews.m */,
 			);
 			name = "drupal-ios-sdk";
 			sourceTree = "<group>";
@@ -649,13 +649,13 @@
 				5BFACE79164724A90046E89D /* ASIHTTPRequest.m in Sources */,
 				5BFACE7A164724A90046E89D /* ASIInputStream.m in Sources */,
 				5BFACE7B164724A90046E89D /* ASINetworkQueue.m in Sources */,
-				5BFACEA5164727010046E89D /* DIOSComment.m in Sources */,
-				5BFACEA6164727010046E89D /* DIOSConnect.m in Sources */,
-				5BFACEA7164727010046E89D /* DIOSFile.m in Sources */,
-				5BFACEA8164727010046E89D /* DIOSNode.m in Sources */,
-				5BFACEA9164727010046E89D /* DIOSTaxonomy.m in Sources */,
-				5BFACEAA164727010046E89D /* DIOSUser.m in Sources */,
-				5BFACEAB164727010046E89D /* DIOSViews.m in Sources */,
+				5BFACEBB164727C00046E89D /* DIOSComment.m in Sources */,
+				5BFACEBC164727C00046E89D /* DIOSConnect.m in Sources */,
+				5BFACEBD164727C00046E89D /* DIOSFile.m in Sources */,
+				5BFACEBE164727C00046E89D /* DIOSNode.m in Sources */,
+				5BFACEBF164727C00046E89D /* DIOSTaxonomy.m in Sources */,
+				5BFACEC0164727C00046E89D /* DIOSUser.m in Sources */,
+				5BFACEC1164727C00046E89D /* DIOSViews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
