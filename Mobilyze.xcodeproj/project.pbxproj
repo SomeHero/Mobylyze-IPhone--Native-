@@ -80,6 +80,10 @@
 		5BFACEBF164727C00046E89D /* DIOSTaxonomy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB6164727C00046E89D /* DIOSTaxonomy.m */; };
 		5BFACEC0164727C00046E89D /* DIOSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEB8164727C00046E89D /* DIOSUser.m */; };
 		5BFACEC1164727C00046E89D /* DIOSViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEBA164727C00046E89D /* DIOSViews.m */; };
+		5BFACEC8164756D10046E89D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEC7164756D10046E89D /* ProfileViewController.m */; };
+		5BFACECE16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACECD16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m */; };
+		5BFACED11647634E0046E89D /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACED01647634E0046E89D /* CreateViewController.m */; };
+		5BFACED4164778FC0046E89D /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACED3164778FC0046E89D /* JoinViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -210,6 +214,14 @@
 		5BFACEB8164727C00046E89D /* DIOSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSUser.m; path = "drupal-ios-sdk/DIOSUser.m"; sourceTree = "<group>"; };
 		5BFACEB9164727C00046E89D /* DIOSViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIOSViews.h; path = "drupal-ios-sdk/DIOSViews.h"; sourceTree = "<group>"; };
 		5BFACEBA164727C00046E89D /* DIOSViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIOSViews.m; path = "drupal-ios-sdk/DIOSViews.m"; sourceTree = "<group>"; };
+		5BFACEC6164756D10046E89D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5BFACEC7164756D10046E89D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5BFACECC16475D3F0046E89D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		5BFACECD16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		5BFACECF1647634E0046E89D /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		5BFACED01647634E0046E89D /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		5BFACED2164778FB0046E89D /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
+		5BFACED3164778FC0046E89D /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Mobilyze-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mobilyze-Info.plist"; path = "../Mobilyze-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,6 +255,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5BFACECA16475D150046E89D /* Custom Features */,
 				5B04B7791646AB0300526C76 /* Table Cells */,
 				5B98C1CC164036C0007A5B8B /* ActionsViewController.h */,
 				5B98C1CD164036C0007A5B8B /* ActionsViewController.m */,
@@ -272,6 +285,12 @@
 				5B98C1F1164036C0007A5B8B /* ViewController.m */,
 				5B98C2081640372B007A5B8B /* AppDelegate.h */,
 				5B98C2091640372B007A5B8B /* AppDelegate.m */,
+				5BFACEC6164756D10046E89D /* ProfileViewController.h */,
+				5BFACEC7164756D10046E89D /* ProfileViewController.m */,
+				5BFACECF1647634E0046E89D /* CreateViewController.h */,
+				5BFACED01647634E0046E89D /* CreateViewController.m */,
+				5BFACED2164778FB0046E89D /* JoinViewController.h */,
+				5BFACED3164778FC0046E89D /* JoinViewController.m */,
 			);
 			name = Classes;
 			path = Mobilyze/Classes;
@@ -515,6 +534,23 @@
 			name = "drupal-ios-sdk";
 			sourceTree = "<group>";
 		};
+		5BFACECA16475D150046E89D /* Custom Features */ = {
+			isa = PBXGroup;
+			children = (
+				5BFACECB16475D290046E89D /* TPKeyboardAvoidingScrollView */,
+			);
+			name = "Custom Features";
+			sourceTree = "<group>";
+		};
+		5BFACECB16475D290046E89D /* TPKeyboardAvoidingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5BFACECC16475D3F0046E89D /* TPKeyboardAvoidingScrollView.h */,
+				5BFACECD16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m */,
+			);
+			name = TPKeyboardAvoidingScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -656,6 +692,10 @@
 				5BFACEBF164727C00046E89D /* DIOSTaxonomy.m in Sources */,
 				5BFACEC0164727C00046E89D /* DIOSUser.m in Sources */,
 				5BFACEC1164727C00046E89D /* DIOSViews.m in Sources */,
+				5BFACEC8164756D10046E89D /* ProfileViewController.m in Sources */,
+				5BFACECE16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m in Sources */,
+				5BFACED11647634E0046E89D /* CreateViewController.m in Sources */,
+				5BFACED4164778FC0046E89D /* JoinViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

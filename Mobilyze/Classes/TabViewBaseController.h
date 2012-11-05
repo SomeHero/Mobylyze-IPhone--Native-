@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "ECSlidingViewController.h"
+#import "CreateViewController.h"
 
 @interface TabViewBaseController : ECSlidingViewController
 
 - (IBAction)revealMenu:(id)sender;
+- (IBAction)showCreateMenu:(id)sender;
 
 @end

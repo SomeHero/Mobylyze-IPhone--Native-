@@ -60,4 +60,28 @@
   }];
 }
 
+- (IBAction)btnLoginClicked:(id)sender {
+    NSLog(@"%@", @"Login Clicked");
+    
+    DIOSUser* diosUser = [[DIOSUser alloc] init];
+    
+    NSDictionary* userLogin = [diosUser loginWithUsername:txtUserName.text andPassword:txtPassword.text];
+    [diosUser release];
+    
+    if([[[[userLogin objectForKey: @"user"] objectForKey: @"uid"] stringValue] isEqualToString: @"0"])
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Login Failed!" message:@"Username and password incorrect. Try again." delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK",nil];
+        [alert show];
+        [alert release];
+    } else {
+        NSLog(@"%@", userLogin);
+        
+        [[NSUserDefaults standardUserDefaults] setObject:userLogin forKey: @"user"];
+        
+        [self.slidingViewController resetTopView];
+        
+         self.slidingViewController.underLeftViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"Profile"];
+    }
+}
+
 @end

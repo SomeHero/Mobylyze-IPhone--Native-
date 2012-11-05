@@ -33,9 +33,15 @@
     self.view.layer.shadowRadius = 10.0f;
     self.view.layer.shadowColor = [UIColor orangeColor].CGColor;
     
-    self.slidingViewController.underLeftViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu"];
+    NSDictionary* user = [[NSUserDefaults standardUserDefaults] dictionaryForKey:@"user"];
     
-    
+    if(user == nil) {
+        self.slidingViewController.underLeftViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"Menu"];
+    }
+    else {
+        self.slidingViewController.underLeftViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"Profile"];
+    }
+
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
     [self.slidingViewController setAnchorRightRevealAmount:280.0f];
 }
@@ -52,7 +58,18 @@
 }
 - (IBAction)revealMenu:(id)sender
 {
+    NSDictionary* user = [[NSUserDefaults standardUserDefaults] dictionaryForKey:@"user"];
+
     [self.slidingViewController anchorTopViewTo:ECRight];
+}
+
+- (IBAction)showCreateMenu:(id)sender;
+{
+    CreateViewController* controller = [[CreateViewController alloc] init];
+    
+    [self.navigationController pushViewController:controller animated:YES];
+    
+    [controller release];
 }
 
 @end

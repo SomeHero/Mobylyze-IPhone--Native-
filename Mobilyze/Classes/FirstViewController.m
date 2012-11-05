@@ -13,13 +13,17 @@
 @end
 
 @implementation FirstViewController
-
+-(void) viewWillAppear:(BOOL)animated   {
+    [super viewWillAppear:animated];
+    }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     DIOSNode* diosNode = [[DIOSNode alloc] init];
  
     nodes =  [diosNode newsGetIndex];
+    
+    NSLog(@"%@", nodes);
 }
 
 - (void)didReceiveMemoryWarning
