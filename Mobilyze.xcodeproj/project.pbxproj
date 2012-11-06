@@ -84,6 +84,9 @@
 		5BFACECE16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACECD16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m */; };
 		5BFACED11647634E0046E89D /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACED01647634E0046E89D /* CreateViewController.m */; };
 		5BFACED4164778FC0046E89D /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACED3164778FC0046E89D /* JoinViewController.m */; };
+		5BFACED7164852510046E89D /* DonateOrganizationItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACED6164852510046E89D /* DonateOrganizationItemCell.m */; };
+		5BFACEDA164857E30046E89D /* DonateOrganizationHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACED9164857E30046E89D /* DonateOrganizationHeaderCell.m */; };
+		5BFACEDD164896290046E89D /* ActionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFACEDC164896280046E89D /* ActionItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -222,6 +225,12 @@
 		5BFACED01647634E0046E89D /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
 		5BFACED2164778FB0046E89D /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
 		5BFACED3164778FC0046E89D /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+		5BFACED5164852510046E89D /* DonateOrganizationItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateOrganizationItemCell.h; sourceTree = "<group>"; };
+		5BFACED6164852510046E89D /* DonateOrganizationItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateOrganizationItemCell.m; sourceTree = "<group>"; };
+		5BFACED8164857E30046E89D /* DonateOrganizationHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateOrganizationHeaderCell.h; sourceTree = "<group>"; };
+		5BFACED9164857E30046E89D /* DonateOrganizationHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateOrganizationHeaderCell.m; sourceTree = "<group>"; };
+		5BFACEDB164896280046E89D /* ActionItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionItemCell.h; sourceTree = "<group>"; };
+		5BFACEDC164896280046E89D /* ActionItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionItemCell.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Mobilyze-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Mobilyze-Info.plist"; path = "../Mobilyze-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -461,6 +470,12 @@
 				5B04B7771646345500526C76 /* NewsItemCell.m */,
 				5B04B77A1646AB1F00526C76 /* EventsTableCell.h */,
 				5B04B77B1646AB1F00526C76 /* EventsTableCell.m */,
+				5BFACED5164852510046E89D /* DonateOrganizationItemCell.h */,
+				5BFACED6164852510046E89D /* DonateOrganizationItemCell.m */,
+				5BFACED8164857E30046E89D /* DonateOrganizationHeaderCell.h */,
+				5BFACED9164857E30046E89D /* DonateOrganizationHeaderCell.m */,
+				5BFACEDB164896280046E89D /* ActionItemCell.h */,
+				5BFACEDC164896280046E89D /* ActionItemCell.m */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -696,6 +711,9 @@
 				5BFACECE16475D3F0046E89D /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5BFACED11647634E0046E89D /* CreateViewController.m in Sources */,
 				5BFACED4164778FC0046E89D /* JoinViewController.m in Sources */,
+				5BFACED7164852510046E89D /* DonateOrganizationItemCell.m in Sources */,
+				5BFACEDA164857E30046E89D /* DonateOrganizationHeaderCell.m in Sources */,
+				5BFACEDD164896290046E89D /* ActionItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

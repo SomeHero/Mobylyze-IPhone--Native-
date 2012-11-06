@@ -27,6 +27,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return @"Events Screen";
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [nodes count];
 }

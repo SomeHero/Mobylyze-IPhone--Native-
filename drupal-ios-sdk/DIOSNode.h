@@ -48,5 +48,5 @@
 -(NSDictionary *) petitionsGetIndex;
 -(NSDictionary *) newsGetIndex;
 -(NSDictionary *) eventsGetIndex;
-
+-(NSDictionary *) organizationsGetIndex;
 @end

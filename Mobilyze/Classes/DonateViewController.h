@@ -8,7 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "TabViewBaseController.h"
+#import "DiosNode.h"
+#import "AFHTTPRequestOperation.h"
+#import "DonateOrganizationItemCell.h"
+#import "DonateOrganizationHeaderCell.h"
 
-@interface DonateViewController : TabViewBaseController
-
+@interface DonateViewController : TabViewBaseController<UITableViewDataSource, UITableViewDelegate>
+{
+    NSMutableArray* allOrganizations;
+    NSDictionary* organizationsInNetwork;
+    NSDictionary* otherOrganizations;
+}
 @end

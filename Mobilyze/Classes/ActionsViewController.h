@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "TabViewBaseController.h"
+#import "DiosNode.h"
+#import "AFHTTPRequestOperation.h"
+#import "ActionItemCell.h"
 
-@interface ActionsViewController : TabViewBaseController
-
+@interface ActionsViewController : TabViewBaseController<UITableViewDataSource, UITableViewDelegate>
+{
+    NSDictionary* nodes;
+}
 @end

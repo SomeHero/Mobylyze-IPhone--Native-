@@ -13,9 +13,7 @@
 @end
 
 @implementation FirstViewController
--(void) viewWillAppear:(BOOL)animated   {
-    [super viewWillAppear:animated];
-    }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -35,7 +33,9 @@
 {
     return 80;
 }
-
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return @"News Screen";
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [nodes count];
 }

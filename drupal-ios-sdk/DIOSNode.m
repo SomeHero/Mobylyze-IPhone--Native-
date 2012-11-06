@@ -101,6 +101,15 @@
     [self runMethod];
     return [self connResult];
 }
+
+-(NSDictionary *) organizationsGetIndex {
+    [self setMethod:@"node.get"];
+    [self setRequestMethod:@"GET"];
+    [self setMethodUrl:[NSString stringWithFormat:@"organizations"]];
+    [self runMethod];
+    return [self connResult];
+}
+
 - (void) dealloc {
     [super dealloc];
   
